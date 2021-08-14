@@ -19,10 +19,9 @@ services:
     depends_on:
       - mariadb
     environment:
-      - WORDPRESS_BLOG_NAME=nopal-blog
       - ALLOW_EMPTY_PASSWORD=yes
       - WORDPRESS_USERNAME=nopal
-      - WORDPRESS_EMAIL='afsanarozanaufal@gmail.com'
+      - WORDPRESS_EMAIL=afsanarozanaufal@gmail.com
       - WORDPRESS_FIRST_NAME=Afsana 
       - WORDPRESS_LAST_NAME=Naufal
       - WORDPRESS_PASSWORD=hahaha321
