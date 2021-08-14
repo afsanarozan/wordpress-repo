@@ -23,13 +23,18 @@ to make sure the containers has been running
 3. So you can akses the application (IP):8081
 
 4. you_can akses WP_admin by path (ip):8081/login  
+   username nopal
+   password hahaha321
+   
+   if can't login you can using default env 
+
    username user
    password bitnami
 
 Instalation Using Helm Kubernetes 
 
-1. Kubernetes cluster, you can using minikube 
-2. Install Helm Chart in you device 
+1. Kubernetes cluster, your can using minikube 
+2. Install Helm Chart in your device 
 3. add repo helm using command
    helm repo add bitnami https://charts.bitnami.com/bitnami
 
@@ -47,3 +52,4 @@ Instalation Using Helm Kubernetes
 
 9. you can akses with ingress in domain demo.wordpress.local if you are using minikube in local
 8. but if on cloud you can install inginx-ingresscontroller first and set up annotation ingressClass in ingress your application 
+

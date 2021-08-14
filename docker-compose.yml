@@ -24,7 +24,7 @@ services:
       - WORDPRESS_EMAIL=afsanarozanaufal@gmail.com
       - WORDPRESS_FIRST_NAME=Afsana 
       - WORDPRESS_LAST_NAME=Naufal
-      - WORDPRESS_PASSWORD=hahaha321
+      - WORDPRESS_PASSWORD=strongpassword
       - WORDPRESS_DATABASE_HOST=mariadb
       - WORDPRESS_DATABASE_PORT_NUMBER=3306
       - WORDPRESS_DATABASE_USER=bn_wordpress
