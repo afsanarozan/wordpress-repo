@@ -29,14 +29,6 @@ services:
       - WORDPRESS_DATABASE_PORT_NUMBER=3306
       - WORDPRESS_DATABASE_USER=bn_wordpress
       - WORDPRESS_DATABASE_NAME=bitnami_wordpress
-    #deploy:
-    #  resources:
-    #    limits:
-    #      cpus: '0.001'
-    #      memory: 50M
-    #    reservations:
-    #      cpus: '0.0001'
-    #      memory: 20M
         
 volumes:
   mariadb_data:
