@@ -76,6 +76,8 @@ $ kubetl get all -n (nama_namespace(optional))
 #### Reference if Using Nginx https://kubernetes.github.io/ingress-nginx/deploy/
 #### Reference if using kong https://docs.konghq.com/kubernetes-ingress-controller/1.3.x/deployment/k4k8s/ 
 
-#### 10. if you will login youcan demo.wordpress.local/login so you can login by username=nopal, password=hahaha321 
+#### 10. if you will login youcan demo.wordpress.local/login so you can login 
+- username=nopal,
+- password=hahaha321 
 ### And now you can using application 
 
