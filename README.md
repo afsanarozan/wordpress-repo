@@ -16,30 +16,31 @@ requirement
 
 ## Install Wordpress 
 
+#### Step 1. Apply docker-compose.yaml   
 ```console
 $ docker-compose up -d
 ```
+#### Step 2. Check your containers has been running 
 ```console
 $ docker ps 
 ```
+
 ```console
 bitnami/wordpress:5    "/opt/bitnami/script…"   19 hours ago   Up 42 minutes   0.0.0.0:8081->8080/tcp, :::8081->8080/tcp, 0.0.0.0:443->8443/tcp, :::443->8443 
 bitnami/mariadb:10.3   "/opt/bitnami/script…"   19 hours ago   Up 42 minutes   3306/tcp                                                                            
 ```
 
-to make sure the containers has been running
 
-3. So you can akses the application (IP):8081
+#### Step 3. So you can akses the application (IP):8081
 
-4. you_can akses WP_admin by path (ip):8081/login  
-   
-   username nopal
-   password hahaha321
-   
-   if can't login you can using default env 
+#### Step 4. you_can akses WP_admin by path (ip):8081/login  
 
-   username user
-   password bitnami
+##### Login    
+   - username nopal
+   - Password hahaha321
+if can't login you can using default env 
+   - username user
+   - password bitnami
 
 Instalation Using Helm Kubernetes 
 
