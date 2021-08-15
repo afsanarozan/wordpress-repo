@@ -10,8 +10,9 @@ requirement
 
 1. install docker 
 2. Installed Docker composer 
+ 
 
-#Reference https://docs.docker.com/compose/install/ 
+### Reference https://docs.docker.com/compose/install/ 
 
 ## Install Wordpress 
 
@@ -31,6 +32,7 @@ to make sure the containers has been running
 3. So you can akses the application (IP):8081
 
 4. you_can akses WP_admin by path (ip):8081/login  
+   
    username nopal
    password hahaha321
    
@@ -60,4 +62,5 @@ Instalation Using Helm Kubernetes
 
 9. you can akses with ingress in domain demo.wordpress.local if you are using minikube in local
 8. but if on cloud you can install inginx-ingresscontroller first and set up annotation ingressClass in ingress your application 
+10. if you will login youcan demo.wordpress.local/login so you can login by username = nopal, password = hahaha321 
 
