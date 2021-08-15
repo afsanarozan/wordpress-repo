@@ -1,22 +1,30 @@
-first Installation using Docker
+## first Installation using Docker
  
 You can clone this repo to your local computer
 
-git repo clone afsanarozan/wordpress-repo
+```console
+$ git repo clone afsanarozan/wordpress-repo
+```
 
 requirement
 
-1. sudo apt/yum install docker
+1. install docker 
 2. Installed Docker composer 
+
 #Reference https://docs.docker.com/compose/install/ 
 
-Install
+## Install Wordpress 
 
-1. docker-compose up -d
-2. docker ps 
-
- bitnami/wordpress:5    "/opt/bitnami/script…"   19 hours ago   Up 42 minutes   0.0.0.0:8081->8080/tcp, :::8081->8080/tcp, 0.0.0.0:443->8443/tcp, :::443->8443 
+```console
+$ docker-compose up -d
+```
+```console
+$ docker ps 
+```
+```console
+bitnami/wordpress:5    "/opt/bitnami/script…"   19 hours ago   Up 42 minutes   0.0.0.0:8081->8080/tcp, :::8081->8080/tcp, 0.0.0.0:443->8443/tcp, :::443->8443 
 bitnami/mariadb:10.3   "/opt/bitnami/script…"   19 hours ago   Up 42 minutes   3306/tcp                                                                            
+```
 
 to make sure the containers has been running
 
